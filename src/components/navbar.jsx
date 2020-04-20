@@ -4,13 +4,13 @@ import React, { Component } from 'react';
 //conver the component into -> Stateles functional component
 //instead of using a class -> use a function
 
-const NavBar = (props) => {
+const NavBar = ({ totalCounters }) => {
   return (
     <nav className='navbar navbar-light nbg-light'>
       <a className='navbar-brand' href='#'>
         Navbar{' '}
         <span className='badge badge-pill badge-secondary'>
-          {props.totalCounters}
+          {totalCounters}
         </span>
       </a>
     </nav>
