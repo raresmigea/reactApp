@@ -12,6 +12,13 @@ class App extends Component {
     ],
   };
 
+  constructor(props) {
+    //called only once when an instance of a class is created
+    super(props); //need to pass props as parameter
+    console.log('props:', this.props);
+    //this.state instead of this.setState here
+  }
+
   handleDelete = (counterId) => {
     const counters = this.state.counters.filter((c) => c.id !== counterId);
     this.setState({ counters });
