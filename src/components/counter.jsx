@@ -7,6 +7,17 @@ class Counter extends Component {
     fontWeight: 'bold',
   };
 
+  //this method is called after a component is updated (new state/props)
+  //compares old one with new one. if there is a change:
+  //it could request data from the server
+  componentDidUpdate(prevProps, prevState) {
+    console.log('prevProps', prevProps);
+    console.log('prevState', prevState);
+    if (prevProps.counter.value !== this.props.counter.value) {
+      //could perform a call to the server
+    }
+  }
+
   render() {
     console.log('counter - rendered');
     return (
