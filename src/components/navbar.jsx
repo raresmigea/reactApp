@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 //we get all the data via props now
 //conver the component into -> Stateles functional component
