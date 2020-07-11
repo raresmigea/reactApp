@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import App from './App';
 
-ReactDOM.render(<App />, document.getElementById('root')); //1st: element, 2nd: where in DOM to render it
+ReactDOM.render(<App />, document.getElementById('root'));
