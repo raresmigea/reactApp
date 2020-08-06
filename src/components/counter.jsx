@@ -22,11 +22,11 @@ class Counter extends Component {
   //gives opportunities for any type of cleanup before removal
   //otherwise could have memory leaks
   componentWillUnmount() {
-    // console.log('counter - unmount');
+    console.log('counter - unmount');
   }
 
   render() {
-    // console.log('counter - rendered');
+    console.log('counter - rendered');
     return (
       <div>
         {this.props.children}
