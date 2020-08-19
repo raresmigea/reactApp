@@ -1,5 +1,9 @@
 import React from 'react';
 
+//we get all the data via props now
+//conver the component into -> Stateles functional component
+//instead of using a class -> use a function
+
 const NavBar = ({ totalCounters }) => {
   console.log('navbar rendered');
   //cannot use life cycle hooks in stateless funct components
