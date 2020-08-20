@@ -7,21 +7,21 @@ class Counter extends Component {
     fontWeight: 'bold',
   };
 
-  //this method is called after a component is updated (new state/props)
-  //compares old one with new one. if there is a change:
-  //it could request data from the server
+  // this method is called after a component is updated (new state/props)
+  // compares old one with new one. if there is a change:
+  // it could request data from the server
 
   componentDidUpdate(prevProps, prevState) {
     console.log('prevProps', prevProps);
     console.log('prevState', prevState);
     if (prevProps.counter.value !== this.props.counter.value) {
-      //could perform a call to the server
+      // could perform a call to the server
     }
   }
 
-  //this method is called before a component is removed from the DOM
-  //gives opportunities for any type of cleanup before removal
-  //otherwise could have memory leaks
+  // this method is called before a component is removed from the DOM
+  // gives opportunities for any type of cleanup before removal
+  // otherwise could have memory leaks
   componentWillUnmount() {
     console.log('counter - unmount');
   }
