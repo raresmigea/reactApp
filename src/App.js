@@ -19,14 +19,14 @@ class App extends Component {
   constructor(props) {
     //called only once when an instance of a class is created
     super(props); //need to pass props as parameter
-    console.log('app - constructor', this.props);
+    console.log('App - constructor', this.props);
     //this.state instead of this.setState here
   }
 
   //it is called after the component is rendered into the DOM
   //perfect place to make AJAX calls to get data from server
   componentDidMount() {
-    console.log('app - mounted'); // called after render
+    console.log('App - mounted'); // called after render
   }
 
   handleDelete = (counterId) => {
@@ -50,7 +50,7 @@ class App extends Component {
     this.setState({ counters });
   };
   render() {
-    console.log('app - rendered');
+    console.log('App - rendered');
     //when a component is rendered - all its children are rendered recursivelly
     return (
       <React.Fragment>
