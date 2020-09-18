@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class Counter extends Component {
   style = {
-    // its properties are CSS properties in cameCase
     fontSize: 20,
     fontWeight: 'bold',
   };
