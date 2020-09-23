@@ -5,6 +5,7 @@ import Counters from './components/counters';
 class App extends Component {
   state = {
     counters: [
+      { id: 0, value: 5 },
       { id: 1, value: 1 },
       { id: 2, value: 2 },
       { id: 3, value: 3 },
@@ -12,7 +13,6 @@ class App extends Component {
       { id: 5, value: 3 },
       { id: 6, value: 2 },
       { id: 7, value: 1 },
-      { id: 8, value: 5 },
     ],
   };
 
