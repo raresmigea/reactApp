@@ -11,8 +11,8 @@ class Counter extends Component {
   // it could request data from the server
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('prevProps', prevProps);
-    console.log('prevState', prevState);
+    console.log('prevProps: ', prevProps);
+    console.log('prevState: ', prevState);
     if (prevProps.counter.value !== this.props.counter.value) {
       // could perform a call to the server
     }
