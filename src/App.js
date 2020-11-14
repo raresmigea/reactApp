@@ -23,8 +23,8 @@ class App extends Component {
     //this.state instead of this.setState here
   }
 
-  //it is called after the component is rendered into the DOM
-  //perfect place to make AJAX calls to get data from server
+  // it is called after the component is rendered into the DOM
+  // perfect place to make AJAX calls to get data from server
   componentDidMount() {
     console.log('App - mounted'); // called after render
   }
