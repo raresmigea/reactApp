@@ -17,10 +17,10 @@ class App extends Component {
   };
 
   constructor(props) {
-    //called only once when an instance of a class is created
-    super(props); //need to pass props as parameter
+    // called only once when an instance of a class is created
+    super(props); // need to pass props as parameter
     console.log('App - constructor', this.props);
-    //this.state instead of this.setState here
+    // this.state instead of this.setState here
   }
 
   // it is called after the component is rendered into the DOM
@@ -51,7 +51,7 @@ class App extends Component {
   };
   render() {
     console.log('App - rendered');
-    //when a component is rendered - all its children are rendered recursivelly
+    // when a component is rendered - all its children are rendered recursivelly
     return (
       <React.Fragment>
         <NavBar
