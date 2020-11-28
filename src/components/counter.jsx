@@ -21,6 +21,7 @@ class Counter extends Component {
   // this method is called before a component is removed from the DOM
   // gives opportunities for any type of cleanup before removal
   // otherwise could have memory leaks
+  
   componentWillUnmount() {
     console.log('counter - unmount');
   }
