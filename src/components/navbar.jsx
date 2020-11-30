@@ -5,7 +5,7 @@ import React from 'react';
 // instead of using a class -> use a function
 
 const NavBar = ({ totalCounters }) => {
-  console.log('Navbar: rendered');
+  console.log('Navbar: ren dered');
   // cannot use life cycle hooks in stateless function components
   // because we have a single function that returns the output of the component
   // need to use classes
