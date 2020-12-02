@@ -1,7 +1,7 @@
 import React from 'react';
 
 // we get all the data via props now
-// conver the component into -> Stateles functional component
+// conver the component into -> stateles functional component
 // instead of using a class -> use a function
 
 const NavBar = ({ totalCounters }) => {
