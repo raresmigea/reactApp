@@ -7,7 +7,8 @@ class Counter extends Component {
   };
 
   // this method is called after a component is updated (new state/props)
-  // compares old one with new one. if there is a change:
+  // compares old one with new one. 
+  // if there is a change:
   // it could request data from the server
 
   componentDidUpdate(prevProps, prevState) {
