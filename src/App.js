@@ -18,7 +18,7 @@ class App extends Component {
 
   constructor(props) {
     // called only once when an instance of a class is created
-    super(props); // need to pass props as parameter
+    super(props); // need to pass props as a parameter
     console.log('App: constructor', this.props);
     // this.state instead of this.setState here
   }
