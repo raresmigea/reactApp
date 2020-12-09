@@ -7,7 +7,7 @@ class Counter extends Component {
   };
 
   // this method is called after a component is updated (new state/props)
-  // compares old one with new one. 
+  // compares old one with new one.
   // if there is a change:
   // it could request data from the server
 
@@ -39,7 +39,7 @@ class Counter extends Component {
           onClick={() => this.props.onIncrement(this.props.counter)}
           className='btn btn-secondary btn-sm'
         >
-          increment
+          Increment
         </button>
         <button
           onClick={() => this.props.onDelete(this.props.counter.id)}

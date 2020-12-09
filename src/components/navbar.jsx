@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 // we get all data via props now
 // conver the component into -> stateles functional component
@@ -10,7 +10,7 @@ const NavBar = ({ totalCounters }) => {
   // because we have a single function that returns the output of the component
   // no need to use classes
 
-  return (
+  return       (      
     <nav className='navbar navbar-light nbg-light'>
       <a className='navbar-brand' href='#a'>
         Navbar
