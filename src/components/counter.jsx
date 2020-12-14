@@ -24,7 +24,7 @@ class Counter extends Component {
   // otherwise could have memory leaks
 
   componentWillUnmount() {
-    console.log('Counter: unmount');
+    console.log('Counter: Unmount');
   }
 
   render() {
