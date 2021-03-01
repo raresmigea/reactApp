@@ -26,13 +26,13 @@ const Counter = ({ key, onDelete, onIncrement, counter }) => {
         onClick={() => onIncrement(counter)}
         className='btn btn-secondary btn-sm'
       >
-        Increment
+        increment
       </button>
       <button
         onClick={() => onDelete(counter.id)}
         className='btn btn-danger btn-sm m-2'
       >
-        Delete
+        delete
       </button>
     </div>
   );
