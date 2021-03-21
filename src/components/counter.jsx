@@ -39,4 +39,11 @@ const Counter = ({ key, onDelete, onIncrement, counter }) => {
   );
 };
 
+Counter.propTypes = {
+  key: PropTypes.number,
+  onDelete: PropTypes.func,
+  onIncrement: PropTypes.func,
+  counter: PropTypes.number,
+};
+
 export default Counter;
