@@ -20,4 +20,11 @@ const Counters = ({ counters, onReset, onDelete, onIncrement }) => {
   );
 };
 
+Counter.propTypes = {
+  counters: PropTypes.array,
+  onReset: PropTypes.func,
+  onDelete: PropTypes.func,
+  onIncrement: PropTypes.func,
+};
+
 export default Counters;
