@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Counter from './counter';
 
 const Counters = ({ counters, onReset, onDelete, onIncrement }) => {
