@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Counter = ({ key, onDelete, onIncrement, counter }) => {
+const Counter = ({ onDelete, onIncrement, counter }) => {
   const style = {
     fontSize: 20,
     fontWeight: 'bold',
