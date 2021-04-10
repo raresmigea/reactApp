@@ -1,14 +1,7 @@
 import React from 'react';
 
-// we get all data via props
-// conver the component into -> stateles functional component
-// instead of using a class -> use a function
-
 const NavBar = ({ totalCounters }) => {
   console.log('Navbar: Rendered');
-  // cannot use life cycle hooks in stateless function components
-  // because we have a single function that returns the output of the component
-  // no need to use classes
 
   return (
     <nav className='navbar navbar-light nbg-light'>
